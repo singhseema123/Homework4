@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- 1 Row with 2 Columns  -->
+    <div class="row">
+        <div class="col-2 LeftNav"> 
+            <p> <button class="btn" id="view">View</button> </p>
+            <!-- <p> <a id="view" href="">View</a> </p> -->
+            <p> <button class="btn" id="add">Add</button> </p>
+            <p> <button class="btn" id="verify">Verify</button> </p>
+            <p> <button class="btn" id="update">Update</button> </p>
+            <p> <button class="btn" id="delete">Delete</button> </p>
+        </div>
+        <div class="verify1 display-none col-4">
+            <input id="name" placeholder="Employee name..">
+            <button id="verifyEmployee">Find Employee</button>
+        </div>
+        <div class="delete1 display-none col-4">
+            <input id="dname" placeholder="Employee name..">
+            <button id="deleteEmployee">Delete Employee</button>
+        </div>
+        <div class="add1 display-none col-4">
+            <input id="aname" placeholder="Employe name..">
+            <input id="onum" placeholder="Office Number..">
+            <input id="pnum" placeholder="Phone Number..">
+            <button id="addEmployee">Add Employee</button>
+        </div>
+        <div class="update1 display-none col-4">
+            <input id="uname" placeholder="Employee name..">
+            <input id="ounum" placeholder="Office Number..">
+            <input id="punum" placeholder="Phone Number..">
+            <button id="updateEmployee">Update Employee</button>
+        </div>
+        
+        <div class="col-6" "MainScreen">
+            <div class="content"></div>
+        </div>
+    </div>
+  </div>
+  <script src="dom.js"></script>
+  <script src="employeeList.js"></script>
+</body>
+
+</html>

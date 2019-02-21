@@ -1,0 +1,27 @@
+
+
+.container {
+    height: 80%;
+}
+
+.LeftNav {
+    background: grey;
+    color: Black;
+    height: 100%;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.display-none {
+    display: none;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
